@@ -1,0 +1,25 @@
+{
+  "name": "bsky-bot",
+  "version": "1.0.0",
+  "description": "Simple bot that posts Arrested Development clips to Bluesky",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "ts-node bot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node bot.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cron": "^2.4.3",
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.18.5",
+    "cron": "^4.3.5",
+    "dotenv": "^17.2.3"
+  }
+}
